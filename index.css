@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container .slide img{
+    height: auto;
+    width: 100%;
+}
+.container{
+   position: relative;
+   width: 100%;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    background-color: rgb(255, 255, 255,0.712);
+    padding: 1px 13px 1px 13px;
+    border-radius: 50%;
+    font-size:x-large;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.caption{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.slide{
+    display: none;
+}
